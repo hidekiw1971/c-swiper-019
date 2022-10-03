@@ -1,0 +1,19 @@
+@use "global" as *;
+.gallery {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+.gallery-slider {
+  margin-bottom: rem(5);
+}
+.swiper-slide {
+  text-align: center;
+  overflow: hidden;
+  opacity: 0.1;
+}
+.swiper-slide-active {
+  opacity: 1;
+}
