@@ -185,7 +185,13 @@ select::-ms-expand {
   margin-bottom: 0.3125rem;
 }
 
-.swiper-slide-active {
+.swiper-slide-visible {
+  text-align: center;
+  overflow: hidden;
+  opacity: 0.1;
+}
+
+.swiper-slide-thumb-active {
   opacity: 1;
 }
 /*# sourceMappingURL=styles.css.map */

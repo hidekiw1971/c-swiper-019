@@ -2,12 +2,12 @@ jQuery(function ($) {
   // この中であればWordpressでも「$」が使用可能になる
   const mySwiper_thumb = new Swiper(".gallery-thumbs", {
     slidesPerView: 6,
-    centeredSlides: true,
+    // centeredSlides: true,
     loop: true,
   });
 
   const mySwiper_main = new Swiper(".gallery-slider", {
-    slidesPerView: 1,
+    slidesPerView: "auto",
     centeredSlides: true,
     loop: true,
     navigation: {
